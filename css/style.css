@@ -37,20 +37,7 @@ body{
 	font-weight:bold;
 }
 
-input#volume {
-	width:95%;
-	margin-left:2%;
-    -webkit-appearance: none !important;
-    background:#ccc;
-    height:1px;
-	margin-bottom:20px;
-}
-input#volume::-webkit-slider-thumb {
-    -webkit-appearance: none !important;
-    background:url(../images/knob.png) no-repeat;
-    height:12px;
-    width:12px;
-}
+
 
 #buttons{
 	width:90%;
@@ -117,6 +104,20 @@ button#next{
     font-weight: bold;
 	padding:3px;
 	background:#666;
+}
+input#volume {
+	width:95%;
+	margin-left:2%;
+	-webkit-appearance: none !important;
+	background:#ccc;
+	height:1px;
+	margin-bottom:20px;
+}
+input#volume::-webkit-slider-thumb {
+	-webkit-appearance: none !important;
+	background:url(../images/knob.png) no-repeat;
+	height:12px;
+	width:12px;
 }
 
 #progressBar { 
